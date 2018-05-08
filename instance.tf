@@ -51,7 +51,7 @@ resource "aws_elb_attachment" "baz" {
 #}
 #output "jenkins_ip" {
 #    value = "${aws_instance.jenkins.public_ip}"
-}
+#}
 #output "jenkins_END_URL" {
 #    value = "http://${aws_instance.jenkins.public_ip}:8080"
 #}
